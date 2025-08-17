@@ -5,7 +5,7 @@ defaults:
   akmods_target: common
 
 akmods-base: &akmods-base
-  org: ublue-os
+  org: skyblaster
   registry: ghcr.io
   repo: akmods
   transport: docker://
