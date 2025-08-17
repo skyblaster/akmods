@@ -74,7 +74,7 @@ jobs:
     permissions:
       actions: read
       contents: read
-    needs: [build-centos_10_nvidia,build-centos_10_nvidia-open,build-centos_10_zfs]
+    needs: [build-centos_10_zfs]
     runs-on: ubuntu-24.04
     if: always()
     steps:
